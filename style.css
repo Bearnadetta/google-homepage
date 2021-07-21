@@ -4,3 +4,13 @@
     bottom: 0;
     width: 100%;
 }
+.main-image {
+    position: fixed;
+    margin: auto;
+    
+}
+.google-logo {
+    width: 40%;
+
+    
+}
