@@ -1,17 +1,18 @@
-a:link, a:visited {
+a.top-link {
     color:black;
     text-decoration: none;
 }
 .top-left {
     color: black; 
     position: fixed;
-    left: 0px;
-    top: 0px;
+    padding: 5px;
+    margin: 0 5px;
 }
 .top-right {
     position: fixed;
-    right: 0px;
-    top: 0px;
+    padding: 5px;
+    right: 5px;
+    top: 5px;
 }
 #sign-in-button {
     color: white;
@@ -19,11 +20,39 @@ a:link, a:visited {
     border-color: transparent;
     border-radius: 10%;
 }
+#main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#google-logo {
+    width: 30%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+#searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#searchbar input {
+    width: 50%;
+}
+.search-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .footer {
+    
+    background-color: #f2f2f2;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+}
+a.footer-link {
+    color: #70757a;
 }
 
 .google-logo {
