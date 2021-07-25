@@ -3,6 +3,9 @@ body {
     display:flex; 
   flex-direction:column; 
 }
+header {
+    
+}
 a.top-link {
     color:black;
     text-decoration: none;
