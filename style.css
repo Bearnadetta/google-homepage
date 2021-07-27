@@ -53,11 +53,9 @@ a.top-link {
     align-items: center;
 }
 footer {
-clear: both;
-    position: relative;
     height: 25px;
-    margin:auto;
     background-color: #f2f2f2;
+    margin-bottom: 0px;
    
 }
 a.footer-link {
