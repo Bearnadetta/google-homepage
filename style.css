@@ -1,35 +1,29 @@
 body {
     height: 100%; 
 }
-.topbar {
-    position: fixed;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
 }
 a.top-link {
     color:black;
     text-decoration: none;
 }
-.top-left {
-    position:fixed;
-    color: black; 
-    padding: 5px;
-    top: 5px;
-    left: 5px;
-}
 .top-right {
-    position: fixed;
-    padding: 5px;
-    right: 5px;
-    top: 5px;
+    float: right;
 }
 #sign-in-button {
     color: white;
     background-color: #1a73e8;
     border-color: transparent;
     border-radius: 10%;
+    float: right;
 }
-#main-image-continer {
-    
-}
+
 #main-image {
     display: flex;
     justify-content: center;
@@ -64,18 +58,6 @@ a.top-link {
 }
 a.footer-link {
     color: #70757a;
-}
-.bottom-left {
-    position: fixed;
-    padding: 5px;
-    left: 5px;
-    bottom: 5px;
-}
-.bottom-right {
-    position: fixed;
-    padding: 5px;
-    right: 5px;
-    bottom: 5px;
 }
 .google-logo {
     width: 40%;
