@@ -56,30 +56,31 @@ a.top-link:hover {
     margin: 0 auto;
 }
 
-#searchbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#searchbar input {
-    border: none;
+#search-and-buttons {
+    text-align: center;
 }
 #search-wrapper {
-    position: flex;
-    border: 1px solid rgb(199, 199, 199);
-    border-radius: 25px;
-    width: 60%;
+    max-width:60%;
+    text-align:center;
+	margin:0 auto;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    height: 40px;
 }
-#search-wrapper:hover {
-    border: 2px solid rgb(233, 233, 233);
+#search-icon {
+    float: left;
+}
+#mic-icon {
+    float: right;
+}
+input {
+    max-width:60%;
+    text-align:center;
+	margin:0 auto;
 }
 .search-buttons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-color: transparent;
-    margin: 10px;
     padding: 10px;
+    margin: 10px;
 }
 footer {
     background-color: #f2f2f2;
