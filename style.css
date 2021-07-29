@@ -46,7 +46,7 @@ a.top-link:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 #google-logo {
     object-fit: contain;
@@ -57,7 +57,7 @@ a.top-link:hover {
     text-align: center;
 }
 #search-wrapper {
-    max-width:60%;
+    max-width:40%;
     text-align:center;
 	margin:0 auto;
     border: 1px solid rgb(226, 226, 226);
@@ -97,7 +97,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 5px;
+    padding: 10px;
 }
 
 a.footer-link {
