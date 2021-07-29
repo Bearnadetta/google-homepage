@@ -43,10 +43,11 @@ a.top-link:hover {
     padding: 5px;
 }
 #main-image {
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    
 }
 #google-logo {
     object-fit: contain;
