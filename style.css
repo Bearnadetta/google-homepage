@@ -45,8 +45,6 @@ a.top-link:hover {
 #main-image {
     margin-top: 5%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     
 }
 #google-logo {
