@@ -46,7 +46,7 @@ a.top-link:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 #google-logo {
     object-fit: contain;
