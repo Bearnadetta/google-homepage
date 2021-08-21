@@ -1,13 +1,9 @@
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 li {
     display: inline;
-    margin: 10px;
-    padding: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -18,17 +14,20 @@ a.top-link {
 }
 .topbar {
     position: absolute;
-    top: 1%;
-    width: 100%;
+    top: 0%;
+    width:99%
 }
 a.top-link:hover {
     text-decoration: underline;
 }
 .top-left {
     float: left;
+    padding: 10px;
 }
 .top-right {
     float: right;
+    padding: 10px;
+    margin-right: 10px;
 }
 #apps-id {
     position: relative;
@@ -40,7 +39,7 @@ a.top-link:hover {
     background-color: #1a73e8;
     border-color: transparent;
     border-radius: 1%;
-    padding: 5px;
+    padding: px;
 }
 #center-page-wrapper{
     margin-top: 20%;
@@ -97,15 +96,18 @@ button {
     border: transparent;
     color: rgb(43, 43, 43);
 }
-footer {
+#footer {
     background-color: #f2f2f2;
     position: absolute;
     bottom: 0;
+    left: 0;
     width: 100%;
-    padding: 10px;
+    
 }
-
-a.footer-link {
+#footer-content {
+    padding: 20px;
+}
+.footer-link {
     color: #70757a;
     text-decoration: none;
 }
@@ -114,7 +116,8 @@ a.footer-link {
 }
 .bottom-right {
     float: right;
+    margin-right: 10px;
 }
-a.footer-link:hover {
+.footer-link:hover {
     text-decoration: underline;
 }
